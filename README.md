@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/aToom13">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=620&lines=Hi+%F0%9F%91%8B%2C+I'm+Atom13;Robotics+%26+Software+Systems+Builder;Creator+of+AtomCLI+%26+Atom-Shell;Autonomous+Systems+%26+UGV+Developer;Powered+by+CachyOS+%F0%9F%90%A7" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=4000&pause=800&color=38BDF8&center=true&vCenter=true&width=420&repeat=true&lines=Currently+hacking+on+AtomCLI" alt="Typing SVG" />
   </a>
 
   <p>
