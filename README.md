@@ -52,8 +52,8 @@ Engineering student building things across software, robotics, and hardware — 
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aToom13/aToom13/output/snake-dark.svg?v=2" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aToom13/aToom13/output/snake.svg?v=2" />
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/aToom13/aToom13/output/snake.svg?v=2" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aToom13/aToom13/b19a2b98aea19e5082dd95e1029b95d6845a09bb/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aToom13/aToom13/b19a2b98aea19e5082dd95e1029b95d6845a09bb/snake.svg" />
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/aToom13/aToom13/b19a2b98aea19e5082dd95e1029b95d6845a09bb/snake.svg" />
   </picture>
 </div>
