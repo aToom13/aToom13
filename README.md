@@ -21,11 +21,9 @@
 
 ### About Me
 
-I'm **Akif Efe Konuksever**, a Software Engineering student at the **University of New York Tirana**. I build things across software, robotics, and hardware — wherever curiosity leads.
+I'm **Akif**, a Software Engineering student at the **University of New York Tirana**. I build things across software, robotics, and hardware — wherever curiosity leads.
 
-My background is in renewable energy and hands-on electronics. That grew into autonomous vehicle projects, computer vision, and AI tools. I enjoy working across the whole system: writing software, designing circuits, connecting sensors, and figuring out why the prototype doesn't behave like the simulation.
-
-These days, my projects mostly involve **AI developer tools**, **camera-based driving systems**, and **Linux desktop customization**. I daily drive **CachyOS with Hyprland**, and use Python, TypeScript, C++, and Dart across different projects.
+My current interests are **AI developer tools**, **computer vision**, and **embedded systems**. I enjoy connecting software with hardware, from camera-based driving experiments to PCB design. Outside those projects, I'm usually customizing my **CachyOS / Hyprland** setup.
 
 ---
 
@@ -33,7 +31,7 @@ These days, my projects mostly involve **AI developer tools**, **camera-based dr
 
 #### [AtomCLI](https://github.com/aToom13/AtomCLI) · AI Developer Tools
 
-A terminal AI coding assistant with multiple model providers, local tools, and MCP integration. It includes an interactive terminal UI, a headless HTTP server, and an Android companion app. This is where much of my current developer tooling work happens.
+A terminal AI coding assistant with multiple model providers, local tools, and MCP integration. It includes an interactive terminal UI, a headless HTTP server, and an Android companion app.
 
 `TypeScript` `Bun` `Dart / Flutter`
 
@@ -43,12 +41,6 @@ A camera-based driving project combining lane tracking, road-center estimation, 
 
 `Python` `OpenCV` `YOLOv8` `Arduino`
 
-#### UGV · Robotics Simulation
-
-A six-wheel ground vehicle simulation for TEKNOFEST track testing, built with ROS 2 Jazzy and Gazebo. Work in progress, focused on route following, mapping, sensor integration, and safety controls.
-
-`Python` `ROS 2` `Gazebo` · *Private repository; work in progress.*
-
 #### [Atom-Shell](https://github.com/aToom13/Atom-Shell) · Linux Desktop
 
 My Hyprland desktop shell, based on Caelestia. It brings together desktop controls, device management, and network diagnostics, with installation, update, backup, and rollback scripts for keeping the setup manageable across machines.
@@ -57,49 +49,17 @@ My Hyprland desktop shell, based on Caelestia. It brings together desktop contro
 
 #### [kiCAD](https://github.com/aToom13/kiCAD) · Electronics & PCB Design
 
-Circuit schematics and PCB layouts for robotics and embedded projects. This is the hardware side of my work: designing the boards and connections that support the software.
+Circuit schematics and PCB layouts for robotics and embedded projects. This is the hardware side of my work: designing boards, planning connections, and bringing electronics into the projects I build.
 
 `KiCad` `Circuit Design` `Embedded Electronics`
 
-<details>
-<summary><strong>More projects: AI agents & education</strong></summary>
-
-- **[AtomAgent](https://github.com/aToom13/AtomAgent)** — A Python AI assistant with web and terminal interfaces, multiple model providers, file tools, and Docker-based code execution. A place to explore agent workflows and tool use.
-- **[AtomStudy](https://github.com/aToom13/AtomStudy)** — A Flutter learning app that turns photographed questions into step-by-step AI explanations, backed by Cloudflare Workers, D1, and Firebase authentication.
-
-</details>
+I'm also working on **UGV**, a ROS 2 / Gazebo ground vehicle simulation focused on route following and sensor integration.
 
 ---
 
 ### Background & Experience
 
-Alongside software, I've worked on renewable energy systems, competition robots, and practical electronics projects.
-
-| Year | Project / competition | My involvement |
-| :--- | :--- | :--- |
-| 2024–2025 | **TEKNOFEST · Autonomous Vehicle** | Team captain; coordinated software and hardware work, developed lane tracking and object detection. |
-| 2025 | **Robotic Tournament · Poland** | Team captain for drag racing, fast line follower, and robot tug-of-war categories. |
-| 2024 | **METEK III · Renewable Energy** | Team captain; our renewable energy project placed **2nd nationally in Turkey**. |
-| 2023 | **Echo Sun Bank · TEKNOFEST** | Team captain; a solar-powered emergency lighting project. **630 units** were produced and installed for earthquake relief with Ministry of National Education support. |
-
-- **Kalyon PV · Engineering Intern (2022):** Worked with the technical team on industrial equipment troubleshooting, production operations, and PV module logistics.
-- **Cezeri Production Unit · Student Technician (2021–2024):** Assembled and tested rheostats and transformers, and took part in solar panel installations.
-
-### Education & Training
-
-- **B.Sc. in Software Engineering · University of New York Tirana (2025–present)** — Studying software engineering, with interests in AI, machine learning, and image processing.
-- **DENEYAP Technology Workshops (2022–2025)** — Completed the Future Technology Stars program, covering AI, IoT, robotics, cybersecurity, and energy technologies through practical projects.
-- **Cezeri Green Technology Vocational and Technical High School (2020–2024)** — Specialized in renewable energy technologies.
-
-<details>
-<summary><strong>Additional training</strong></summary>
-
-- **BTK Academy (2022):** Cybersecurity training camp, covering security fundamentals and vulnerability analysis.
-- **TANAP Social Investment Program (2019):** 72 hours of applied robotics and coding training.
-- **Ankara Development Agency (2023):** International branding training.
-- **Ministry of National Education (2023):** Digital entrepreneurship workshop.
-
-</details>
+My hands-on background includes renewable energy, electronics, and the **DENEYAP Technology Workshops**. I've led teams in **TEKNOFEST** autonomous vehicle and renewable energy projects, working across software and hardware. Our renewable energy project placed **2nd nationally in the METEK III competition**. Those experiences still shape how I approach building and testing things.
 
 ---
 
@@ -118,14 +78,6 @@ Alongside software, I've worked on renewable energy systems, competition robots,
   </p>
 
 </div>
-
-| Area | Technologies & tools |
-| :--- | :--- |
-| **AI & Computer Vision** | PyTorch, TensorFlow, OpenCV, YOLOv8, LLM integration, agent workflows |
-| **Applications & Backend** | TypeScript, Bun, Flutter, Firebase, Cloudflare Workers |
-| **Robotics & Embedded** | ROS 2, Gazebo, Arduino, MicroPython, serial communication |
-| **Electronics & CAD** | KiCad, Proteus, Eagle, Fusion 360, AutoCAD, FreeCAD |
-| **Linux & Development** | Git, Docker, Bash, Hyprland, Quickshell |
 
 ---
 
