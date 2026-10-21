@@ -49,11 +49,4 @@ Engineering student building things across software, robotics, and hardware — 
 
 </div>
 
----
 
-### GitHub Stats
-
-<div align="center">
-  <img width="53%" src="https://streak-stats.demolab.com/?user=aToom13&theme=tokyonight&hide_border=true" />
-  <img width="43%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aToom13&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" />
-</div>
