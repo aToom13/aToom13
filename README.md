@@ -3,8 +3,10 @@
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=500&repeat=true&lines=Hi+%F0%9F%91%8B%2C+I'm+Atom13;I+build+whatever+sparks+my+curiosity;Currently+just+vibing;CachyOS+daily+driver" alt="Typing SVG" />
   </a>
 
+  <p>Software &nbsp;·&nbsp; Robotics &nbsp;·&nbsp; Linux</p>
+
   <p>
-    <img src="https://img.shields.io/badge/OS-CachyOS%20Linux-18B278?style=for-the-badge&logo=archlinux&logoColor=white" />
+    <img src="https://img.shields.io/badge/OS-CachyOS%20Linux-18B278?style=for-the-badge&logo=archlinux&logoColor=white" alt="CachyOS Linux" />
   </p>
 </div>
 
@@ -14,21 +16,19 @@
 
 Engineering student building things across software, robotics, and hardware — wherever curiosity leads.
 
-- **Active Project:** Actively developing **[AtomCLI](https://github.com/aToom13/AtomCLI)** — a modern, extensible CLI toolkit for developer productivity and workflow automation.
-- **Robotics & Hardware:** Prototyping autonomous ground vehicles (**UGV**), designing PCBs with **KiCAD**, programming microcontrollers with **Arduino**.
-- **Linux & Desktop:** Maintaining **[Atom-Shell](https://github.com/aToom13/Atom-Shell)** — a portable Hyprland desktop shell with safe setup, updates, and rollback.
-- **Daily Driver:** CachyOS (Arch-based) with Hyprland / Wayland.
+Working on terminal tools, autonomous vehicle projects, and PCB designs. Daily driving CachyOS with Hyprland.
 
 ---
 
 ### Featured Projects
 
-| Project | Description | Stack |
-| :--- | :--- | :--- |
-| **[AtomCLI](https://github.com/aToom13/AtomCLI)** | CLI toolkit for developer productivity and workflow automation. Under active development. | `TypeScript` `Shell` `Dart` |
-| **[UGV](https://github.com/aToom13/UGV)** | Unmanned Ground Vehicle — autonomous robotic platform with sensor fusion and navigation. | `Python` `C++` |
-| **[Atom-Shell](https://github.com/aToom13/Atom-Shell)** | Portable Hyprland desktop shell with safe configurations, updates, and rollbacks. | `QML` `C++` `Shell` |
-| **[kiCAD](https://github.com/aToom13/kiCAD)** | Hardware schematics and PCB layouts for robotics and embedded electronics. | `KiCAD` `Python` |
+| Project | What I'm building |
+| :--- | :--- |
+| **[AtomCLI](https://github.com/aToom13/AtomCLI)** | A terminal AI coding assistant with multiple model providers and local tools. |
+| **[Temel_Otonom](https://github.com/aToom13/Temel_Otonom)** | Camera-based lane tracking, PID steering, and object detection with OpenCV and YOLOv8. |
+| **[UGV](https://github.com/aToom13/UGV)** | A six-wheel ground vehicle simulation using ROS 2 Jazzy and Gazebo. |
+| **[Atom-Shell](https://github.com/aToom13/Atom-Shell)** | A Hyprland desktop shell based on Caelestia, with setup, backups, and rollback. |
+| **[kiCAD](https://github.com/aToom13/kiCAD)** | Circuit schematics and PCB layouts for robotics and embedded projects. |
 
 ---
 
@@ -36,19 +36,21 @@ Engineering student building things across software, robotics, and hardware — 
 
 <div align="center">
 
-**Languages**
+  <p>
+    <strong>Languages</strong><br><br>
+    <img src="https://skillicons.dev/icons?i=ts,python,cpp,dart,bash&perline=5" alt="TypeScript, Python, C++, Dart, Bash" />
+  </p>
 
-<img src="https://skillicons.dev/icons?i=ts,python,cpp,arduino,bash&perline=5" />
-
-<br><br>
-
-**Tools & Environment**
-
-<img src="https://skillicons.dev/icons?i=linux,arch,git,github,vscode&perline=5" />
+  <p>
+    <strong>Tools &amp; Environment</strong><br><br>
+    <img src="https://skillicons.dev/icons?i=linux,arch,git,arduino,opencv&perline=5" alt="Linux, Arch Linux, Git, Arduino, OpenCV" />
+  </p>
 
 </div>
 
 ---
+
+### Contributions
 
 <div align="center">
   <picture>
