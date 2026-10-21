@@ -2,18 +2,31 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "23 */6 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/snake.yml]
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: false
 
 permissions:
   contents: write
 
 jobs:
   build:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+
       - name: Generate snake animation
-        uses: Platane/snk@v3
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: aToom13
           outputs: |
@@ -25,5 +38,34 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
+          keep_history: true
+          commit_message: "chore: update contribution snake"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update README to immutable animation URLs
+        run: |
+          python3 - <<'PY'
+          import os
+          import re
+          import subprocess
+          from pathlib import Path
+
+          revision = subprocess.check_output(
+              ["git", "ls-remote", "origin", "refs/heads/output"], text=True
+          ).split()[0]
+          assert re.fullmatch(r"[0-9a-f]{40}", revision), "Invalid output commit"
+          base = f"https://raw.githubusercontent.com/{os.environ['GITHUB_REPOSITORY']}/"
+          pattern = re.escape(base) + r"(?:output|[0-9a-f]{40})/(snake(?:-dark)?\.svg)(?:\?v=[^\"\s]+)?"
+          readme = Path("README.md")
+          updated, count = re.subn(pattern, lambda m: base + revision + "/" + m[1], readme.read_text())
+          assert count == 3, f"Expected three snake URLs, found {count}"
+          readme.write_text(updated)
+          PY
+          git diff --quiet -- README.md && exit 0
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m "docs: refresh contribution snake URLs"
+          git pull --rebase origin main
+          git push origin HEAD:main
