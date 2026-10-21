@@ -54,12 +54,6 @@ Engineering student building things across software, robotics, and hardware — 
 ### GitHub Stats
 
 <div align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=aToom13&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aToom13&layout=compact&theme=tokyonight&hide_border=true" />
-</div>
-
-<br>
-
-<div align="center">
-  <img width="60%" src="https://streak-stats.demolab.com/?user=aToom13&theme=tokyonight&hide_border=true" />
+  <img width="53%" src="https://streak-stats.demolab.com/?user=aToom13&theme=tokyonight&hide_border=true" />
+  <img width="43%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aToom13&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" />
 </div>
