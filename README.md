@@ -85,8 +85,8 @@ My hands-on background includes renewable energy, electronics, and the **DENEYAP
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aToom13/aToom13/5526a4c4e16fd370edca7a024cfd823dffa0c58f/snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aToom13/aToom13/5526a4c4e16fd370edca7a024cfd823dffa0c58f/snake.svg" />
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/aToom13/aToom13/5526a4c4e16fd370edca7a024cfd823dffa0c58f/snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aToom13/aToom13/d36fc5930c55cec31f7df8b703385609a5d084a4/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aToom13/aToom13/d36fc5930c55cec31f7df8b703385609a5d084a4/snake.svg" />
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/aToom13/aToom13/d36fc5930c55cec31f7df8b703385609a5d084a4/snake.svg" />
   </picture>
 </div>
